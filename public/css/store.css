@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@font-face {
+    font-family: BKoodakBold;
+    src: url(../fonts/BKoodakBold.eot) format('eot'), url(../fonts/BKoodakBold.woff) format('woff'), url(../fonts/BKoodakBold.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: BYekan;
+    src: url(../fonts/BYekan.eot) format('eot'), url(../fonts/BYekan.woff) format('woff'), url(../fonts/BYekan.ttf) format('truetype')
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    direction: rtl;
+}
+*{
+    font-family: BKoodakbold;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.ltr{
+    direction: ltr!important;
+    text-align: left!important;
+}
+tr.pending {
+    background: #FCE9E9 !important;
+}
+.w30p{
+    width: 32%;
+    display: inline-block;
+}
+.w50p{
+    width: 50%;
+    display: inline-block;
+}
+.cred{
+    color: #ffc6bf !important;
+}
+.cyellow{
+    color: #fffe40 !important;
+}
+
+.center{
+    text-align: center;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+p.date{
+    text-align: left;
+    color: #777;
+}
+h1{
+    margin-top: 0 !important;
+}
+h1,h2{
+    font-family: BYekan !important;
+}
+select{
+    min-width: 200px;
+}
+table tr:first-child {
+    background: #eee !important;
+    color: #003cb3;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.media{
+    position: relative;
+}
+.vote {
+    position: absolute;
+    top: -12px;
+    left: 0;
+}
+.vote .rateUp,.vote .rateDown{
+    font-weight: bold;
+    font-size: 26px;
+    cursor: pointer;
+}
+.vote .rateUp:hover,.vote .rateDown:hover{
+    color: black;
+}
+.vote .rateUp{
+    color: green;
+}
+.vote .rateDown{
+    color: red;
+}
+.vote .rateVal{
+    direction: ltr;
+    font-family: sans-serif;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+}
+.logout {
+    color: red;
+}
+
+.postText{
+    font-size: 16px;
+}
+
+.pager{
+    white-space: nowrap;
+}
+
+.panel {
+    background-image: none !important;
+    padding: 7px 16px 9px 15px;
+}
